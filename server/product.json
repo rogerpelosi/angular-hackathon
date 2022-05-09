@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 100,
+      "name": "lettuce",
+      "quantity": 46
+    },
+    {
+      "id": 101,
+      "name": "muffin",
+      "quantity": 111
+    },
+    {
+      "id": 102,
+      "name": "slug",
+      "quantity": 13
+    },
+    {
+      "id": 103,
+      "name": "raddish",
+      "quantity": 22
+    },
+    {
+      "id": 104,
+      "name": "tofu",
+      "quantity": 56
+    },
+    {
+      "id": 105,
+      "name": "catfish",
+      "quantity": 8
+    },
+    {
+      "id": 106,
+      "name": "coffee",
+      "quantity": 1000
+    },
+    {
+      "id": 107,
+      "name": "pear",
+      "quantity": 32
+    },
+    {
+      "name": "kombucha",
+      "quantity": 27,
+      "id": 108
+    },
+    {
+      "name": "yolo",
+      "quantity": 6,
+      "id": 109
+    },
+    {
+      "name": "yolo",
+      "quantity": 1,
+      "id": 110
+    },
+    {
+      "name": "sad",
+      "quantity": 2,
+      "id": 111
+    }
+  ]
+}

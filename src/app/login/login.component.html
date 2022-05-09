@@ -1,0 +1,18 @@
+<p *ngIf="userError">{{userError}}</p>
+
+<form class="login" [formGroup]="loginForm" (ngSubmit)="login()">
+
+    <mat-form-field appearance="fill">
+        <input matInput type="text" placeholder="username" formControlName="username">
+        <mat-label>username</mat-label>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <input matInput type="password" placeholder="password" formControlName="password">
+        <mat-label>password</mat-label>
+    </mat-form-field>
+
+    <button mat-raised-button color="accent" [disabled]="loginForm.invalid">login</button>
+
+</form>
+
