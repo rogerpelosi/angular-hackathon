@@ -1,8 +1,10 @@
-<p *ngIf="userError">{{userError}}</p>
+<!-- <p *ngIf="userError">{{userError}}</p> -->
 
 <form class="login" [formGroup]="loginForm" (ngSubmit)="login()">
 
-    <mat-form-field appearance="fill">
+    <p *ngIf="userError">{{userError}}</p>
+
+    <mat-form-field appearance="fill" class="field">
         <input matInput type="text" placeholder="username" formControlName="username">
         <mat-label>username</mat-label>
     </mat-form-field>
